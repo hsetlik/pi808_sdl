@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/hayden/Documents/dev/EmbeddedLinuxProjects/pi808_sdl'
-g++ -std=c++11 -Wall -O0 -g -lsdl2 -Iinclude -Llib src/main.cpp -o build/debug/play
+g++ -std=c++11 -Wall -O0 -g -lsdl2 -Iinclude -Llib src/AppWindow.cpp src/Component.cpp src/PiWindow.cpp src/main.cpp -o build/debug/play
 make: Leaving directory `/Users/hayden/Documents/dev/EmbeddedLinuxProjects/pi808_sdl'
  

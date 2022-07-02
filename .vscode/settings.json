@@ -5,5 +5,9 @@
             "binaryPath": "/Users/hayden/Documents/dev/EmbeddedLinuxProjects/pi808_sdl/build/debug/play",
             "binaryArgs": []
         }
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "string": "cpp"
+    }
 }

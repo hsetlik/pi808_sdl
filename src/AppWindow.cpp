@@ -71,7 +71,9 @@ void AppWindow::run()
         if (diff > (1000 / MAX_FPS))
         {
             render();
+            lastFrameStart = now;
         }
     }
+    return;
 }
 

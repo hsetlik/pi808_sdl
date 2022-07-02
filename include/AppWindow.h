@@ -1,7 +1,7 @@
 #ifndef APPWINDOW_H
 #define APPWINDOW_H
 
-#include <string>
+//#include <string>
 #include <SDL2/SDL.h>
 
 // Redefine these or pass width and height arguments to AppWindow constructor
@@ -17,7 +17,7 @@ protected:
     bool isRunning;
     SDL_Window *window;
     SDL_Renderer *renderer;
-    const std::string windowName;
+    const char* windowName;
     int xPos;
     int yPos;
     int windowWidth;
