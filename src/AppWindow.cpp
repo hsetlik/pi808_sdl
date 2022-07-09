@@ -65,7 +65,7 @@ void AppWindow::run()
     while (isRunning)
     {
         pollEvents();
-        now = SDL_GetTicks64();
+        now = SDL_GetTicks();
         auto diff = now - lastFrameStart;
         // check if it's time for a new frame
         if (diff > (1000 / MAX_FPS))

@@ -66,14 +66,8 @@ public:
     void setSizeBlock(Uint32 w, Uint32 h, bool applyToChildren=true);
     
 
-    void setSizeMode (SizeMode mode, bool applyToChildren=true)
-    {
-        currentSizeMode = mode;
-        for (auto& child : children)
-        {
-            child.setSizeMode(mode);
-        }
-    }
+    void setSizeMode (SizeMode mode, bool applyToChildren=true);
+
 };
 
 
