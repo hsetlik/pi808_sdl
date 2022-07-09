@@ -11,7 +11,6 @@ public:
     ~PiWindow();
     void renderWindow(SDL_Renderer* rend) override;
     void handleEvent(SDL_Event* event) override;
-    void render() override;
     
 };
 

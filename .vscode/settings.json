@@ -8,6 +8,7 @@
     ],
     "C_Cpp.errorSquiggles": "Enabled",
     "files.associations": {
-        "string": "cpp"
+        "string": "cpp",
+        "typeinfo": "cpp"
     }
 }

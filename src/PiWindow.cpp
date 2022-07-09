@@ -1,6 +1,6 @@
 #include "PiWindow.h"
 
-PiWindow::PiWindow(/* args */)
+PiWindow::PiWindow(/* args */) : AppWindow("PI808")
 {
 }
 
@@ -24,10 +24,5 @@ void PiWindow::handleEvent(SDL_Event* event)
         default:
             break;
     } 
-}
-
-void PiWindow::render()
-{
-
 }
 

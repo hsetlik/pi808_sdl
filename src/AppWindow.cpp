@@ -61,7 +61,7 @@ void AppWindow::render()
 
 void AppWindow::run()
 {
-    static ulong now = 0;
+    static uint32_t now = 0;
     while (isRunning)
     {
         pollEvents();
@@ -74,6 +74,5 @@ void AppWindow::run()
             lastFrameStart = now;
         }
     }
-    return;
 }
 

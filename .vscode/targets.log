@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Sat Jul  2 16:53:00 2022
+# Make data base, printed on Sat Jul  9 09:55:38 2022
 
 # Variables
 
@@ -21,7 +20,6 @@ GEOSERVER_HOME = /usr/local/geoserver
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
- 
 NVM_INC = /Users/hayden/.nvm/versions/node/v16.13.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -51,13 +49,15 @@ endef
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/_6/4qk6gb9s6rq1lz23_2k9w3vr0000gn/T/vscode-ipc-8570f52f-4ecd-427d-a3c0-61b72f93ad07.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/_6/4qk6gb9s6rq1lz23_2k9w3vr0000gn/T/vscode-ipc-16cec294-6507-4418-bec7-2ac177709825.sock
 # environment
 VSCODE_CWD = /
 # environment
 NO_PROXY = 127.0.0.1
 # environment
 NVM_BIN = /Users/hayden/.nvm/versions/node/v16.13.0/bin
+# environment
+LaunchInstanceID = FC5A10DF-0A93-4566-901F-36E1224BF45B
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -67,11 +67,11 @@ INCLUDE_PATHS = -Iinclude
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Sewh4dDIRg/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.dXJkyNGMDV/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = /private/tmp/com.apple.launchd.1GZkJKSIzN/org.xquartz:0
+DISPLAY = /private/tmp/com.apple.launchd.LMVT3xfJ2H/org.xquartz:0
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -164,6 +164,8 @@ PLATFORMIO_CALLER = vscode
 LC_ALL = C
 # makefile (from `Makefile', line 7)
 LIBRARY_PATHS = -Llib
+# environment
+SECURITYSESSIONID = 186a6
 # automatic
 ^F = $(notdir $^)
 # makefile (from `Makefile', line 4)
@@ -179,9 +181,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2661
+VSCODE_PID = 398
 # variable set hash-table stats:
-# Load=82/1024=8%, Rehash=0, Collisions=3/117=3%
+# Load=84/1024=8%, Rehash=0, Collisions=3/119=3%
 
 # Pattern-specific Variable Values
 
@@ -189,8 +191,8 @@ VSCODE_PID = 2661
 
 # Directories
 
-# . (device 16777225, inode 53835457): 13 files, no impossibilities.
-# src (device 16777225, inode 53835537): 6 files, no impossibilities.
+# . (device 16777223, inode 53835457): 13 files, no impossibilities.
+# src (device 16777223, inode 53835537): 6 files, no impossibilities.
 
 # 19 files, no impossibilities in 2 directories.
 
@@ -263,6 +265,6 @@ Makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat Jul  2 16:53:00 2022
+# Finished Make data base on Sat Jul  9 09:55:38 2022
 
  
