@@ -14,7 +14,5 @@ void sdlLoop()
 
 int main()
 {
-  auto window = new PiWindow();
-  window->run();
  return 0;
 }
